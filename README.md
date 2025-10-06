@@ -21,30 +21,31 @@ This project demonstrates the full lifecycle of a machine learning system:
 
 ## 🗂️ Project Structure
 
-📦 machine-learning-flask-aws
-│
-├── artifacts/ # Intermediate files (data, models, etc.)
-├── data/ # Raw and processed datasets
-├── logs/ # Auto-generated log files
-├── notebooks/ # EDA and experimentation notebooks
-│
-├── src/
-│ ├── components/
-│ │ ├── data_ingestion.py # Reads and splits data
-│ │ ├── data_transformation.py # Cleans and encodes data
-│ │ ├── model_trainer.py # Trains and evaluates models
-│ │
-│ ├── pipeline/
-│ │ ├── training_pipeline.py # Automates full ML workflow
-│ │ └── prediction_pipeline.py # Handles predictions for Flask app
-│ │
-│ ├── exception.py # Custom exception handling class
-│ ├── logger.py # Logging configuration
-│ └── utils.py # Helper functions
-│
-├── templates/ # HTML templates for Flask web app
-│ ├── index.html
-│ └── result.html
+
+---
+
+## ⚙️ Installation & Local Setup
+
+Follow these steps to run the project locally:
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/machine-learning-flask-aws.git
+
+# Navigate to the directory
+cd machine-learning-flask-aws
+
+# Create a virtual environment (recommended)
+python -m venv venv
+venv\Scripts\activate     # For Windows
+source venv/bin/activate  # For macOS/Linux
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the Flask app
+python app.py
+
 │
 ├── static/ # CSS, JS, and image files
 ├── app.py # Main Flask web application
