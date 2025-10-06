@@ -30,7 +30,7 @@ Follow these steps to run the project locally:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/machine-learning-flask-aws.git
+git clone https://github.com/MazidNawaz/End-to-End-Machine-Learning-Project.git
 
 # Navigate to the directory
 cd machine-learning-flask-aws
